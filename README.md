@@ -1,0 +1,3 @@
+#veri tanabi sunumu
+
+https://ogrencibartinedu-my.sharepoint.com/:v:/g/personal/20670310050_ogrenci_bartin_edu_tr/EWZVaCT-MCNEnkVCap-bl6cB816E8MtNy4l8lIyhUBb-ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XYcCnu
