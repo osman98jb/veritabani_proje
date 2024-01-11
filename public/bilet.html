@@ -1,0 +1,33 @@
+<!-- bilet.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bilet Form</title>
+</head>
+<body>
+  <h1>Bilet Form</h1>
+  <form action="/addBilet" method="post">
+    <!-- No need to include BiletID in the form as it will be auto-incremented -->
+
+    <label for="Yolcu_adi">Yolcu Adı:</label>
+    <input type="text" id="Yolcu_adi" name="Yolcu_adi" required>
+
+    <label for="Kalkis_istasyon">Kalkış İstasyon:</label>
+    <input type="text" id="Kalkis_istasyon" name="Kalkis_istasyon" required>
+
+    <label for="Varis_istasyon">Varış İstasyon:</label>
+    <input type="text" id="Varis_istasyon" name="Varis_istasyon" required>
+
+    <label for="Ucret">Ücret:</label>
+    <input type="number" id="Ucret" name="Ucret" step="0.01" required>
+
+    <label for="Tarih">Tarih:</label>
+    <input type="date" id="Tarih" name="Tarih" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

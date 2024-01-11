@@ -1,0 +1,30 @@
+<!-- guzergah.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Guzergah Form</title>
+</head>
+<body>
+  <h1>Guzergah Form</h1>
+  <form action="/addGuzergah" method="post">
+    <!-- No need to include GuzergahID in the form as it will be auto-incremented -->
+
+    <label for="Baslangic_istasiyon">Başlangıç İstasyon:</label>
+    <input type="text" id="Baslangic_istasiyon" name="Baslangic_istasiyon" required>
+
+    <label for="Bitis_istasiyon">Bitiş İstasyon:</label>
+    <input type="text" id="Bitis_istasiyon" name="Bitis_istasiyon" required>
+
+    <label for="Mesafe">Mesafe: <Bold>(KM)</Bold> </label>
+    <input type="number" id="Mesafe" name="Mesafe" step="0.01" required>
+
+    <label for="Sure">Süre: <Bold>(Saat)</Bold></label>
+    <input type="number" id="Sure" name="Sure" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

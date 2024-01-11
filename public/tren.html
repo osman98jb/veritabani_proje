@@ -1,0 +1,30 @@
+<!-- tren.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tren Form</title>
+</head>
+<body>
+  <h1>Tren Form</h1>
+  <form action="/addTren" method="post">
+    <!-- No need to include TrenID in the form as it will be auto-incremented -->
+
+    <label for="Marka">Marka:</label>
+    <input type="text" id="Marka" name="Marka" required>
+
+    <label for="Model">Model:</label>
+    <input type="text" id="Model" name="Model" required>
+
+    <label for="Kapasite">Kapasite:</label>
+    <input type="number" id="Kapasite" name="Kapasite" required>
+
+    <!-- Additional fields related to the trigger -->
+    
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
